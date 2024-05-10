@@ -1,0 +1,110 @@
+body {
+    background-color:rgba(165, 78, 92, 0.6);
+  }
+  h1 {
+    font-family:font-family: "Handlee", cursive; 
+    font-weight: 400;
+    font-style: normal;
+    font-size:38px;
+    margin: 55px 0 0 20px;
+  }
+  .break1 {
+  width:670px;
+  position:relative;
+  top:30px;
+  }
+  .break2 {
+      width:670px;
+      position:relative;
+      bottom:100px;
+  }
+  .containerFull {
+      width:700px;
+      height:400px;
+      background:rgb(255, 255, 255);
+      border-radius:10px;
+      display:block;
+      margin:60px auto;
+      box-shadow:50px 50px maroon;
+  }
+  
+  input.searchBar,
+  input.submitBar {
+    font-family: Arial;
+    font-size: 20px;
+    border-width: 0px;
+    padding:20px;
+    margin:0 0 10px 0;  
+  }
+  input.searchBar {
+    display: inline-block;
+    margin: 20px 0 0 20px;
+    width: 450px;
+    height: 58px;
+    background:rgba(165, 78, 92, 0.6);
+    border-radius: 6px;
+    border-color: rgba(39, 33, 66, 0.4);
+    }
+    input[type="search"]::placeholder {
+    color:rgb(255, 255, 255);
+  
+  }
+  input.submitButtn {
+    display: inline-block;
+    margin: 0 auto;
+    width: 90px;
+    height: 56px;
+    background: maroon;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-color: rgba(39, 33, 66, 0.4);
+    
+  }
+  p.currentDetails {
+      font-family: "Handlee", cursive;
+      font-weight: 400;
+      font-style: normal;
+      font-size:16px;
+      margin:16px 0px 16px 20px;
+      line-height:30px;
+     
+  
+    }
+    .strong {
+      font-weight:700px;
+    }
+    .currentTemp {
+      font-size:80px;
+      font-family: "Handlee", cursive; 
+      position:relative;
+      left:475px;
+      bottom:140px;
+    }
+    .sun {
+      font-size:35px;
+      position:relative;
+      bottom:10px;
+    }
+    .fahrenheit {
+    font-size:28px;
+    position:relative;
+    bottom:35px;
+    right:10px;
+    }
+    .footer {
+      text-align:center;
+      font-family: "Handlee", cursive;
+      margin:0 0 100px 0;
+      position:relative;
+      bottom:70px;
+      
+    }
+    .maroon {
+      color:maroon;
+      text-decoration:underline;
+    }
+    .link1, .link2, .link3 {
+      color:maroon;
+  
+    }
+  
